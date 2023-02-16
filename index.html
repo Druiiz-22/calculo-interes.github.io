@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo del interés</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <main>
+        <h1 class="titulo txt-center">Cálculo del interés</h1>
+
+        <p class="mb-20">
+            Calcular el interés que tiene una cuenta de ahorros a fin de año, sabiendo que:
+        </p>
+
+        <ul class="ml-40 mb-30">
+            <li>La cuenta genera un interés del 15% anual, lo que equivale a 1.25% mensual.</li>
+            <li>El monto inicial se ingresa en el mes de enero y mensualmente se ingresan 250.00 Bs.</li>
+            <li>El cálculo se requiere hasta el mes de diciembre.</li>
+        </ul>
+
+        <div class="d-flex flex-column">
+
+            <input id="btnCalcular" class="btn mt-20" type="submit" value="Calcular" name="btnCalculos" onclick="calcular()">
+        </div>
+
+        <div id="calculos" class="calculos-box"></div>
+
+    </main>
+</body>
+</html>
